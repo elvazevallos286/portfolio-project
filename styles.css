@@ -109,15 +109,20 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
     width: 200px;
     border-radius: 5px;
-    text-decoration: none;
-    text-align:justify;
+   
+}
+
+.bottom-link {
+    color: #442c06;
+    text-decoration:none;
+    /* text-align:initial;
+    position: left; */
 }
 
 .features-section {
     height: 400px;
     background-image: url(assets/kayak-multiple.png);
     background-color: #d6caca;
-    background-color: ;
     border-top: 10px solid white;
     color: black;
     display: flex;
@@ -194,4 +199,37 @@ h1, h2, h3, h4, h5, h6 {
 
   .copywrite {
       color: blueviolet
+  }
+
+  .mycontact {
+      display:flex;
+      flex-direction: column;
+    align-items: center;
+      /* justify-content: space-around; */
+      background-color: coral;
+      color:rgb(14, 13, 13)
+
+  }
+
+  .test {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  p {
+      margin-right: 15px;
+  }
+
+
+  .header-aboutme {
+      display:flex;
+      justify-content: center;
+      background-color: coral;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
